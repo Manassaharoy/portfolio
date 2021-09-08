@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* colors- 
+#D8E3E7 rgb(216, 227, 231) ash
+#51C4D3  rgb(81, 196, 211) light blue
+#126E82 rgb(18, 110, 130) blue
+#132C33 rgb(19, 44, 51) dark blue */
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: url('../img/banner.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bannerc{
+    
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px;
+    color: white;
+    background-color: rgb(18, 110, 130, 0.5);
+    transition: .5s ease;
+    
+}
+.bannerc h1,h3,h4{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.bannerc em{
+    font-weight: 500!important;
+    letter-spacing: 1px!important;
+}
+.bannerc:hover{
+    background-color: #d8e3e7a6;
+    color: #126E82;
+    border: 2px solid #126E82;
+    cursor: pointer;
+}
+
+
+.navbar-container{
+    top: 0;
+    background-color: #132C33;
+    font-size: large;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: sticky;
+    z-index: 2; 
+}
+.navbar .collapse a{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: .3s ease; 
+}
+.navbar .collapse a:hover{
+    
+    background: white;
+    color: teal!important; 
+    
+}
+
+
+.about{
+    background-color: #51C4D3;
+}
+.educolor {
+     color: #D8E3E7;
+}
+
+.edu{
+    background: url('../img/banner.jpg');
+    /* background-image: url('../img/banner.jpg');     */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+
+}
+
+
+.edu .circle{
+    background-color: tomato;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.project-container{
+    background-color: #51C4D3;
+}
+
+.project-container .col{
+    padding: 20px 10px ;
+    
+}
+
+.project-container .container .row .col .card img{
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.project-container .container .row .col .card img:hover {
+    transform: scale(1.1);
+}
+
+.portfolio{
+    background-color: #126E82;
+}
+
+.glrywide{
+    width: 50%;
+}
+
+.form-container{
+    background-color: #126E82;
+}
+
+.innerform{
+    background-color: #51C4D3;
+}
+.btn{
+    border: 1px solid #132C33;
+    background: #51C4D3;
+
+}
+.btn:hover{
+    background: #132C33;
+    color: #51C4D3;
+    
+}
+.footer-container{
+    background: #132C33;
+    color: white;
+    text-align: center;
+}
+.circlefb a{
+    text-decoration: none;
+    
+}
+.circlefb{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background: #51C4D3; */
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: #51C4D3!important;
+}
+
+.circlefb:hover{
+    background: #ffffff;
+    color: #51C4D3;
+    
+}
+
+.footer-container .container .row .col a{
+    text-decoration: none;
+    color: #51C4D3;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
