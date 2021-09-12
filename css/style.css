@@ -134,6 +134,14 @@ body{
     color: #51C4D3;
     
 }
+.cvbtn{
+    border: none;
+}
+.cvbtn:hover{
+    background: #51C4D3;
+    color: #132C33;
+    
+}
 .footer-container{
     background: #132C33;
     color: white;
@@ -167,4 +175,12 @@ body{
     font-style: italic;
     
 }
+.card-body a{
+    text-decoration: none;
+    color: #51C4D3;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
 
